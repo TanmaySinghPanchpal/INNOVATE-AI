@@ -1,0 +1,28 @@
+English Premier League Data Analysis – Project Summary
+
+This project uses Python to analyze and model EPL match data.
+
+Dataset:
+- 11,113 matches, 23 features (goals, shots, fouls, cards, corners, referees, etc.)
+- Target variable: match result (FTR) or goals scored
+
+Process:
+- Data cleaning, feature engineering, and encoding
+- Exploratory data analysis: home advantage, fouls, corners, seasonality
+- Regression modeling for goal prediction
+
+Models:
+1. Linear Regression – R² ≈ 0.209, MAE ≈ 0.64, RMSE ≈ 0.76  
+2. Decision Tree – R² ≈ -0.51 (overfit), MAE ≈ 0.75  
+3. XGBoost – R² ≈ 0.15, MAE ≈ 0.65
+
+Key Insights:
+- Home teams score more; shots on target predict outcomes
+- Fouls/cards correlate with negative results
+- Regression gives moderate accuracy; classification could do better
+
+Future Work:
+- Shift from regression to classification (win/draw/loss predictions)
+- Add player stats, team form, betting odds
+- Apply ensemble methods and hyperparameter tuning
+
