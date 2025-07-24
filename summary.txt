@@ -1,0 +1,47 @@
+Introduction:
+The project focuses on analyzing IPL (Indian Premier League) data from 2008 to 2020, covering 816 matches. It includes exploratory data analysis and a predictive model to determine match outcomes using machine learning.
+
+Exploratory Data Analysis (EDA):
+- Venue & City Insights:
+  - Mumbai hosted the most matches, followed by Delhi and Kolkata.
+  - Eden Gardens is the most popular venue.
+
+- Player Performance:
+  - AB de Villiers has the highest "Player of the Match" awards.
+
+- Trend Analysis:
+  - Match counts increased until 2013 and peaked again in 2022.
+  - Most matches are played in April and May.
+
+- Team Performance:
+  - Gujarat Titans have the highest win percentage, followed by CSK and LSG.
+
+- Toss Impact:
+  - Teams that field first after winning the toss have higher win rates.
+
+- Match Margins:
+  - Most matches are closely contested, with narrow win margins.
+
+- Umpires:
+  - S Ravi and AK Chaudhary officiated the most matches.
+
+- Result Types:
+  - 53% matches won by wickets, 45.7% by runs, and 1.3% ended in ties.
+
+- Feature Correlation:
+  - Heatmaps were used to identify correlations and missing values.
+
+Machine Learning Model:
+- Objective: Predict the winning team using match-specific features.
+- Model: LightGBM Classifier
+- Input Features:
+  - Venue, Batting Team, Bowling Team, Toss Winner & Decision, Runs Left, Balls Left, Wickets, Total Runs, CRR, RRR
+- Output: 
+  - Binary classification (1 = Batting team wins, 0 = Bowling team wins)
+
+- Sample Prediction:
+  - Mumbai Indians vs. Chennai Super Kings
+  - Prediction: 1 → Mumbai Indians are predicted to win
+
+Conclusion:
+The model successfully leverages match context and historical data to predict IPL outcomes. It aids strategic decisions for analysts, coaches, and management, enhancing competitive performance.
