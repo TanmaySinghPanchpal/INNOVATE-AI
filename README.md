@@ -1,10 +1,41 @@
-# INNOVATE-AI
-Welcome to Innovate AI 🤖 the premier AI club under the ACM Student Chapter at USICT. We are a passionate community of AI enthusiasts, researchers, and developers dedicated to exploring the frontiers of artificial intelligence and machine learning. Here's what you can look forward to:
+# 🏆 EPL Data Analysis – Kamal Aggarwal
 
-🧠 AI Research & Development:  
-🌍 Real-World Applications:  
-📈 Skill Enhancement:  
-🤝 Networking with fellow AI/ML enthusiasts:  
-💡 Innovation & Creativity in AI/ML:
+This project was submitted as part of the **ACM Data Analysis Challenge** under the **INNOVATE-AI** initiative. It focuses on analyzing match-level data from the **English Premier League (EPL)** to uncover patterns, trends, and insights using data science techniques.
 
-Whether you're new to AI/ML or an experienced practitioner, ACM Innovate AI is the perfect place to advance your skills, engage in cutting-edge projects, and contribute to the AI/ML revolution. Join us today, and let’s innovate the future with AI! 🚀🤖👩‍💻👨‍💻
+---
+
+## 📂 Contents
+
+- 📓 `Kamal_(EPL_Analysis).ipynb`: Complete Jupyter Notebook with full documentation
+- 📊 `Kamal_Insights.pdf`: Final presentation with visual insights, results, and recommendations
+- 📄 `README.md`: This file
+
+---
+
+## 🎯 Objective
+
+- Perform end-to-end data analysis on EPL match data (1993–2022)
+- Clean, explore, and visualize key statistics
+- Engineer new features like *Match Intensity* and *Aggressiveness*
+- Train machine learning models to predict match results
+- Deliver compelling insights through visuals and storytelling
+
+---
+
+## 📊 Key Insights
+
+- **Home advantage** exists but is narrowing in modern seasons  
+- **Shots on target** and **discipline metrics** are strong predictors of match outcome  
+- **Referee behavior** significantly affects match dynamics  
+- **~13% of matches** are won by teams with fewer shots — *underdog victories*  
+- Custom metrics like **Match Intensity Score** reveal deeper game dynamics
+
+---
+
+## 🛠️ Tools & Libraries
+
+- Python (Pandas, Matplotlib, Seaborn, Scikit-learn)
+- Jupyter Notebook
+- PowerPoint (for visual storytelling)
+
+---
