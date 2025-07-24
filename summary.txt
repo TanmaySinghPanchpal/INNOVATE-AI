@@ -1,0 +1,31 @@
+1. Team Comparison (2008–2025):
+   - Line chart visualizes win trends of Mumbai Indians vs Chennai Super Kings.
+   - Data shows fluctuating performances across seasons.
+   - Mumbai and Chennai are the top-performing teams in terms of total wins.
+
+2. Batsman Comparison (2008–2024):
+   - Line chart compares seasonal total runs of V Kohli and RG Sharma.
+   - V Kohli shows peak performance in 2016.
+   - RG Sharma maintains consistent scoring across seasons.
+
+3. Dataset:
+   - Source: Kaggle – IPL Matches & Deliveries Dataset.
+   - Covers seasons from 2008 to 2024, with 816 matches analyzed.
+
+4. Data Cleaning and Preprocessing:
+   - Missing values handled, columns dropped, inconsistent values normalized.
+   - Team and city names standardized.
+   - Feature engineering applied for team stats and player metrics.
+
+5. Model Overview:
+   - Objective: Predict batsman's runs using XGBoost regression.
+   - Input features: Player, opponent, venue, inning, position, form, etc.
+   - Output: Predicted run score (e.g., Rohit Sharma predicted to score 101.3 runs).
+   - Justification: XGBoost chosen for its high accuracy and regularization ability.
+
+6. Insights:
+   - Mumbai hosted the highest number of IPL matches.
+   - AB de Villiers earned the most “Player of the Match” awards.
+   - Toss decisions show varying trends across match types.
+
+
