@@ -1,0 +1,16 @@
+Model Summary
+We built an IPL match winner prediction model using historical match data and team performance metrics. The model uses a Random Forest Classifier trained on features like batting strength, bowling strength, toss decisions, and head-to-head win ratios.
+
+Key highlights:
+
+Feature Engineering: Real cricket stats like runs per over, wickets per over, and past win percentages.
+
+Model: Random Forest with preprocessing via scikit-learn pipelines.
+
+Frontend: A simple web interface using Flask, HTML, and Tailwind CSS for user input and predictions.
+
+Prediction Output: The model predicts the winning team and displays supporting stats.
+
+Accuracy: Achieved high performance on test data using clean features and proper evaluation.
+
+This project demonstrates how real-world sports analytics can be translated into intelligent predictive systems using machine learning.
