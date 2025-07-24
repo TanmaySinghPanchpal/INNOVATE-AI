@@ -1,0 +1,36 @@
+
+	  	    	 	   	   	    IPL Data Analysis Project – Summary
+ Data Preparation:
+- Cleaned and preprocessed IPL data from matches.csv and deliveries.csv.
+- Merged datasets using match_id to connect match-level and ball-by-ball data.
+- Handled missing values (e.g., winner, city, player_of_match) using forward fill/mode.
+- Encoded categorical features (teams, venues, decisions) using LabelEncoder.
+
+Key Insights:
+- Mumbai Indians emerged as the most successful team in IPL history.
+- Toss winners had a slight advantage (win rate ~51%) but not a guaranteed win.
+- Powerplay (overs 1–6) and death overs (overs 16–20) showed significant impact on total scores.
+- Venue-based scoring trends highlighted Wankhede and Chinnaswamy as batting-friendly.
+
+Predictive Modeling:
+Implemented 3 ML models to predict match winners:
+- Logistic Regression Accuracy: 47.71%
+- Decision Tree Accuracy: 43.84%
+- Random Forest Accuracy: **58.27%** (best performer)
+
+Random Forest outperformed others due to its ensemble learning strength, reducing overfitting and capturing complex team-match interactions.
+
+ Conclusion:
+- Predicting IPL outcomes is challenging due to cricket’s dynamic nature.
+- Machine Learning can provide smart assistance, but not certainty.
+- This analysis serves as a solid base for future real-time prediction tools, fantasy league advisors, or IPL strategy dashboards.
+
+Future Scope:
+- Integrate live player form, pitch reports, and weather conditions.
+- Deploy as an interactive dashboard using Streamlit or Dash.
+- Expand to WPL, ICC tournaments, and T20 leagues for global insights.
+
+Tools Used:
+Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, Jupyter Notebook
+
+
