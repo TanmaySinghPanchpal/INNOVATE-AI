@@ -1,0 +1,45 @@
+🏏 Data Analysis Event – Innovate AI | ACM TECH WEEK 2025
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+      Participant: VISHNUB PRIYA A
+
+📌 Project Title:
+         Predicting Match Winners Using Game Statistics (Games.csv + Players.csv)
+
+🎯 Objective:
+        To analyze historical basketball game data and build a predictive model that forecasts the match winner using score-related and team-based features.
+
+📂 Dataset Summary:
+ Games.csv: 71,879 matches (home/away teams, scores, date, attendance)
+Players.csv: 6,530 player profiles (draft data, physical attributes)
+
+🧪 Methods Used:
+ Data Cleaning & Preprocessing (Pandas)
+ Exploratory Data Analysis (Seaborn, Matplotlib)
+ Machine Learning Model: Random Forest Classifier
+ Evaluation Metrics: Accuracy, F1-Score, Confusion Matrix
+
+📊 Model Accuracy:
+✔️ 82.4% accuracy using Random Forest
+✔️ Most important features: Home Score, Away Score, Home Team Identity
+
+🔍 Key Insights:
+ Home team score is the strongest indicator of match outcome.
+ Certain cities consistently host high-scoring matches.
+ Random Forest model outperforms simpler classifiers like Decision Tree.
+
+💡 Recommendations:
+ Include player-level performance metrics in future iterations.
+ Use advanced feature engineering with draft info and attendance impact.
+ Expand model to include live-match data for real-time prediction.
+
+📁 Submission Includes:
+ Jupyter Notebook (.ipynb) with full workflow
+ PPT slides with charts, model, and insights
+ This summary.txt
+
+🔧 Tools & Libraries:
+Python, Pandas, Seaborn, Matplotlib, Scikit-learn, Jupyter
+
+🚀 Submitted under:
+INNOVATE-AI | ACM TECH WEEK – Data Analysis Event
